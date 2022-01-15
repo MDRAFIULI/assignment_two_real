@@ -38,3 +38,11 @@ font-weight: 100;}
 #gray{color: gray;}
 .product-detail h6 span{margin-left: 12px;
 font-size: 1.5em;}
+/* Footer tag... */
+footer{height: 250px;
+background-color: #0A0826;
+color: white;
+
+}
+.foot{text-align: center;
+margin-top: 150px;}
