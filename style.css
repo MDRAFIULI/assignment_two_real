@@ -17,6 +17,8 @@ width: 169px;
 height: 44px;
 }
 /* SECOND section.............. */
+.products{display: grid;
+grid-template-columns: repeat(3, 1fr);}
 .product-detail h3{font-size: 2em;
 margin-bottom: 0px;}
 .product-detail h4{font-size: 2em;
