@@ -1,0 +1,30 @@
+/* ...font style............. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* cmmon style...... */
+body{font-family: 'Poppins', sans-serif;
+text-align: justify;}
+/* First section.............. */
+.first-section{display: flex;}
+.start-journey{width: 50%;}
+.start-journey h1{font-size: 3em; 
+    size: 52px;
+line-height: 70px;
+}
+button{background-color: #E02C6D;
+color: white;
+border-radius: 41px;
+width: 169px;
+height: 44px;
+}
+/* SECOND section.............. */
+.product-detail h3{font-size: 2em;
+margin-bottom: 0px;}
+.product-detail h4{font-size: 2em;
+margin-top: 0px;}
+.product-detail h4{margin-bottom: 0px;
+font-weight: 100;}
+.product-detail h6{margin-top: 0px;}
+.fas.fa-star{color: gold;}
+#gray{color: gray;}
+.product-detail h6 span{margin-left: 12px;
+font-size: 1.5em;}
