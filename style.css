@@ -5,7 +5,8 @@ body{font-family: 'Poppins', sans-serif;
 text-align: justify;}
 /* First section.............. */
 .first-section{display: flex;}
-.start-journey{width: 50%;}
+.start-journey{width: 50%;
+margin-right: 80px;}
 .start-journey h1{font-size: 3em; 
     size: 52px;
 line-height: 70px;
@@ -15,6 +16,15 @@ color: white;
 border-radius: 41px;
 width: 169px;
 height: 44px;
+}
+.camera img{animation: rotate 3s ease 1 alternate ;
+    
+}
+@keyframes rotate {
+    from{transform: rotate(360deg);
+        transition: transform 3s ease;}
+        to{background-color: tomato;}
+    
 }
 /* SECOND section.............. */
 .second-section{margin-top: 200px;}
@@ -28,12 +38,16 @@ justify-content: center;
 }
 .product{}
 .product-detail h3{font-size: 2em;
-margin-bottom: 0px;}
+margin-bottom: 0px;
+}
 .product-detail h4{font-size: 2em;
-margin-top: 0px;}
+margin-top: 0px;
+text-align: center;
+}
 .product-detail h4{margin-bottom: 0px;
 font-weight: 100;}
-.product-detail h6{margin-top: 0px;}
+.product-detail h6{margin-top: 0px;
+    text-align: center;}
 .fas.fa-star{color: gold;}
 #gray{color: gray;}
 .product-detail h6 span{margin-left: 12px;
@@ -46,6 +60,7 @@ color: white;
 }
 .foot{text-align: center;
 margin-top: 150px;}
+/* ..media query................. */
 @media only screen and (max-width:688px) {
     .first-section{width: 100%;}
     
